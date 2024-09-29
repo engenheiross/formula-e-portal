@@ -5,18 +5,20 @@ export const HomeStyle = styled.section
 
 #home {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 3fr 4fr;
+    grid-gap: 2rem;
 }
 
 #noticias {
     grid-column: 1;
     grid-row: 1;
+    height: 16rem;
 }
 
 .noticia {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     padding: .5rem;
     gap: .3rem;
@@ -26,7 +28,7 @@ export const HomeStyle = styled.section
 #ultimas-corridas {
     grid-column: 2;
     grid-row: 1;
-
+    height: 16rem;
     display: flex;
     flex-direction: column;
     
@@ -43,11 +45,12 @@ export const HomeStyle = styled.section
 }
 
 #proxima-corrida {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 2;
     height: 100%;
     width: 100%;
 
+    background-image: var(--gray);
     
 }
 
@@ -112,7 +115,7 @@ export const HomeStyle = styled.section
 }
 
 #tabela {
-    grid-column: 2;
+    grid-column: 1;
 }
 
 `

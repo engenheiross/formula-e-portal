@@ -10,7 +10,7 @@ export const TabelaStyle = styled.section`
     #classificacao {
         width: 100%;
         border-collapse: collapse;
-        background-color: var(--gray);
+        background-image: var(--gray);
     }
 
     #cabecalho {
@@ -27,7 +27,9 @@ export const TabelaStyle = styled.section`
 
     .tabela-item:hover {
         background-color: #f1f1f1;
+        transition: 4s;
     }
+
 
     .posicao {
         width: 50px;
@@ -41,14 +43,21 @@ export const TabelaStyle = styled.section`
     }
 
     .piloto-foto {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         object-fit: cover;
     }
 
     .piloto-nome {
         font-weight: bold;
+    }
+    .piloto-nome:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .piloto-foto:hover {
+        cursor: pointer;
     }
 
     .equipe, .score {

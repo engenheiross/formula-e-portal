@@ -15,7 +15,7 @@ const Header = () => {
                 <Link className="link" to="/">Próxima Corrida</Link>
                 <Link className="link" to="/">Última Corrida</Link>
                 <Link className="link" to="/">Classificações</Link>
-                <Link className="link" to="/">Login</Link>
+                <Link className="link" to="/login">Login</Link>
             </div>
         </div>
         </HeaderStyle>

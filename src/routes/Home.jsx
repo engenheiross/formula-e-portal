@@ -1,6 +1,8 @@
 import { HomeStyle } from "../css/HomeStyle";
 import Tabela from "../components/Tabela.jsx";
 
+import {Link} from 'react-router-dom';
+
 const Home = () => {
 
     return (
@@ -9,16 +11,20 @@ const Home = () => {
             <div id="noticias">
                 <h1>Últimas Notícias</h1>
                 <div className="noticia">
-                    <h3 className="noticia-titulo">Hanz Evans destrói corrida</h3>
+                    <img alt="thumbnail" className="noticia-thumbnail"/>
+                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
                 </div>
                 <div className="noticia">
-                    <h3 className="noticia-titulo">Hanz Evans destrói corrida</h3>
+                    <img alt="thumbnail" className="noticia-thumbnail"/>
+                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
                 </div>
                 <div className="noticia">
-                    <h3 className="noticia-titulo">Hanz Evans destrói corrida</h3>
+                    <img alt="thumbnail" className="noticia-thumbnail"/>
+                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
                 </div>
                 <div className="noticia">
-                    <h3 className="noticia-titulo">Hanz Evans destrói corrida</h3>
+                    <img alt="thumbnail" className="noticia-thumbnail"/>
+                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
                 </div>
             </div>
 

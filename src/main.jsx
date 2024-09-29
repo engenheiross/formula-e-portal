@@ -5,6 +5,7 @@ import GlobalStyle  from './css/GlobalStyle.jsx';
 import App from './App.jsx';
 import Home from './routes/Home.jsx';
 import Error from './routes/Error.jsx';
+import Login from './routes/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/login",
+        element: <Login />,
+      }
     ],
   },
 ]);
