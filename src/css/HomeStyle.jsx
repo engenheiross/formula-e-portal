@@ -60,6 +60,7 @@ export const HomeStyle = styled.section
 }
 
 #corrida {
+    flex-direction: column;
     justify-content: center;
     align-items: space-around;
     display: flex;
@@ -76,7 +77,7 @@ export const HomeStyle = styled.section
     justify-content: center;
     align-items: center;
 
-    width: 16rem;
+    width: 36rem;
     margin-top: 2rem;
     padding: 1rem;
 }

@@ -48,12 +48,12 @@ const Home = () => {
                 <h1>Próxima Corrida</h1>
                 <h2>GP da Espanha</h2>
                 <div id="corrida">
+                    <img id="nextrace-picture" src="/src/assets/formula-e.webp" alt="foto" className="corrida-item"/>
                     <div id="nextrace-data" className="corrida-item">
                         <div id="nextrace-place" className="race-stat">MADRID</div>
                         <div id="nextrace-date" className="race-stat">Data: 22/06/2024</div>
                         <div id="nextrace-time" className="race-stat">às 10h00 - horário de Brasília GMT-3</div>
                     </div>
-                    <img id="nextrace-picture" src="/src/assets/formula-e.webp" alt="foto" className="corrida-item"/>
                     <div id="buttons" className="corrida-item">
                         <div id="watch-button" className="btn">Assistir no YouTube</div>
                         <div id="purchase-button" className="btn">Comprar Ingresso</div>
