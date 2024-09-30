@@ -48,9 +48,9 @@ Siga os passos abaixo para rodar o projeto localmente utilizando **npm**:
 
 1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/seu-usuario/formula-e-promotion.git
-   ```
+```bash
+git clone https://github.com/seu-usuario/formula-e-promotion.git
+```
 
 Acesse a pasta do projeto:
 
