@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle `
     --blue: linear-gradient(to right, blue, darkblue);
 
     --third-color: #AC3E54;
+
 }
 
 * {
@@ -19,6 +20,8 @@ const GlobalStyle = createGlobalStyle `
     color: white;
 
     overflow-x: hidden;
+
+    font-family: 'Trebuchet MS';
 
 }
 
