@@ -1,5 +1,13 @@
 # Mahindra Tech - Fórmula E Promotion Website
 
+## Membros do Grupo
+
+- Glauco Heitor Gonçalves e Silva - RM 555978
+- Victor Hugo de Paula - RM 554787
+- Otavio Santos de Lima Ferrao - RM 556452
+- Gabriel Guilherme Leste - RM 558638
+
+
 Bem-vindo ao repositório do site promocional da Fórmula E, desenvolvido para a **Mahindra Tech**. Este projeto tem como objetivo promover o campeonato de Fórmula E, destacando os eventos, equipes e as inovações tecnológicas da competição.
 
 O site inclui as seguintes seções:
