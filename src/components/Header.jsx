@@ -8,8 +8,8 @@ const Header = () => {
         <HeaderStyle>
         <div id="header">
             <div id="brand">
-                <img alt="logo"/>
-                <h2>Fórmula E</h2>
+                <Link to="/"><img alt="logo"/></Link>
+                <Link to="/" className="link"><h2>Fórmula E</h2></Link>
             </div>
             <div id="links">
                 <Link className="link" to="/">Próxima Corrida</Link>

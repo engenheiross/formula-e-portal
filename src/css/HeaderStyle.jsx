@@ -19,6 +19,8 @@ export const HeaderStyle = styled.section
     background: var(--third-color);
     height: 4rem;
     padding-inline: 8rem;
+
+    
 }
 
 #links {
@@ -38,7 +40,6 @@ export const HeaderStyle = styled.section
 
 .link :hover {
     cursor: pointer;
-    color: var(--third-color);
 }
 
 `
