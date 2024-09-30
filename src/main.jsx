@@ -6,6 +6,7 @@ import App from './App.jsx';
 import Home from './routes/Home.jsx';
 import Error from './routes/Error.jsx';
 import Login from './routes/Login.jsx';
+import Dashboard from './routes/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
       }
     ],
   },

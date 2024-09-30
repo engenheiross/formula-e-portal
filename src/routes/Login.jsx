@@ -1,58 +1,46 @@
-import { useRef } from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import {LoginStyle} from '../css/LoginStyle.jsx'; 
 
 const Login = () => {
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate(); 
 
-    /*Hook-useRef - ele retorna uma referencia a um elemento ou componente
-    sem ser renderizado novamente */
-
-    const usuario = useRef();
-    const senha = useRef();
-
-    // Pegando os dados de usuario e senha gravando na sessão
-
-    const getUsuario = sessionStorage.getItem("usuario");
-    const getSenha = sessionStorage.getItem("senha");
-
-
-
-    //criando a função handleLogin
-
-    const handleLogin = () => {
-        if (usuario.current.value == "Admin" && senha.current.value == "123456") {
-
-            //criando um token de autenticação
-            let token =
-                Math.random().toString(16).substring(2) +
-                Math.random().toString(16).substring(2);
-
-            sessionStorage.setItem("usuario", "Admin");
-            sessionStorage.setItem("senha", token)
+    const handleLogin = (e) => {
+        e.preventDefault();
+        
+        if (username === 'admin' && password === 'admin') {
+            
+            localStorage.setItem('isAuthenticated', 'true');
+            navigate('/dashboard');
+        } else {
+            alert('Usuário ou Senha Incorretos');
         }
-        else {
-            alert("Usuario/Senha INVÁLIDO")
-        }
-    }
-
-
+    };
 
     return (
-        <>
-            <section>
-                    <form onSubmit={handleLogin}>
-                        <p>
-                            Usuário:
-                            <input type="text" placeholder="Digite seu usuário" ref={usuario} />
-                        </p>
-                        <p>
-                            Senha:
-                            <input type="password" placeholder="Digite sua senha" ref={senha} />
-                        </p>
+        <LoginStyle>
+        <div className="login-container">
+            <form className="login-form" onSubmit={handleLogin}>
+                <h2>Login</h2>
+                <input
+                    type="text"
+                    placeholder="E-mail"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                />
+                <input
+                    type="password"
+                    placeholder="Senha"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                />
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+        </LoginStyle>
+    );
+};
 
-                        <button type="submit">Entrar</button>
-                    </form>
-            </section>
-
-        </>
-    )
-}
-export default Login
+export default Login;
