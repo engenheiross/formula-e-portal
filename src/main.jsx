@@ -7,6 +7,8 @@ import Home from './routes/Home.jsx';
 import Error from './routes/Error.jsx';
 import Login from './routes/Login.jsx';
 import Dashboard from './routes/Dashboard.jsx';
+import Noticia from './routes/Noticia.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,15 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/noticias",
+        children: [
+          {
+            path: "/noticias/noticia",
+            element: <Noticia />
+          }
+        ]
       }
     ],
   },

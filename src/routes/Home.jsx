@@ -12,19 +12,19 @@ const Home = () => {
                 <h1>Últimas Notícias</h1>
                 <div className="noticia">
                     <img alt="thumbnail" className="noticia-thumbnail"/>
-                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
+                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">Fórmula E confirma teste só para mulheres na pré-temporada de Valência</Link></h3>
                 </div>
                 <div className="noticia">
                     <img alt="thumbnail" className="noticia-thumbnail"/>
-                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
+                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">Mitch Evans destrói corrida</Link></h3>
                 </div>
                 <div className="noticia">
                     <img alt="thumbnail" className="noticia-thumbnail"/>
-                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
+                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">Mitch Evans destrói corrida</Link></h3>
                 </div>
                 <div className="noticia">
                     <img alt="thumbnail" className="noticia-thumbnail"/>
-                    <h3 className="noticia-titulo"><Link to="/noticias/1">Mitch Evans destrói corrida</Link></h3>
+                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">Mitch Evans destrói corrida</Link></h3>
                 </div>
             </div>
 

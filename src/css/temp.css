@@ -1,0 +1,11 @@
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-title {
+    display: flex;
+    border: 8px solid black;
+    padding: 2rem;
+}
+

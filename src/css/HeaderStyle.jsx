@@ -9,6 +9,8 @@ export const HeaderStyle = styled.section
     padding-right: 8rem;
     background: var(--gray);
     height: 4rem;
+
+    overflow-y: hidden;
 }
 #header :hover {
     cursor: pointer;
@@ -31,10 +33,11 @@ export const HeaderStyle = styled.section
     list-style: none;
 }
 
-.link {
+.class-link {
     text-decoration: none;
     font-weight: none;
     font-style: none;
+    color: white;
     
 }
 
