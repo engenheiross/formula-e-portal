@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <FooterStyle>
-        <h4>Sprint 2 da Challenge da FIAP - Protótipo feito para a Mahindra Tech</h4>
+        <h4>Copyright 2024 - Todos os Direitos Reservados</h4>
         </FooterStyle>
     );
 

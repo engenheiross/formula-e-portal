@@ -74,3 +74,4 @@ http://localhost:3000
 ```
 Após seguir esses passos, o projeto estará rodando em modo de desenvolvimento em sua máquina local.
 
+        
