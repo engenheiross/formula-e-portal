@@ -8,6 +8,8 @@ export const HomeStyle = styled.section
     grid-template-rows: 1fr 3fr;
     grid-template-columns: 3fr 4fr;
     grid-gap: 2rem;
+
+    padding: 2rem;
 }
 
 #noticias {
@@ -35,17 +37,6 @@ export const HomeStyle = styled.section
     
 }
 
-.corrida {
-    display: flex;
-    flex-direction: row;
-    
-    padding: .5rem;
-    gap: .3rem;
-    background: url("./src/assets/168614.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center bottom 10px;
-}
 
 #proxima-corrida {
     grid-column: 2;

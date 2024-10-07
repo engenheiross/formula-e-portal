@@ -16,6 +16,7 @@ export const CorridaStyle = styled.section
     }
 
     .corrida {
+        width: 100%;
         display: flex;
         flex-direction: row;
         
@@ -33,6 +34,10 @@ export const CorridaStyle = styled.section
         gap: 2rem;
 
         overflow-y: hidden;
+    }
+
+    .corrida :hover {
+        cursor: pointer;
     }
         
     #corrida-1 {
