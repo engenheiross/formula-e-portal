@@ -41,7 +41,10 @@ export const HomeStyle = styled.section
     
     padding: .5rem;
     gap: .3rem;
-    background-image: var(--gray);
+    background: url("./src/assets/168614.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom 10px;
 }
 
 #proxima-corrida {

@@ -17,15 +17,43 @@ export const CorridaStyle = styled.section
 
     .corrida {
         display: flex;
+        flex-direction: row;
+        
+        padding: .5rem;
+        gap: .3rem;
+
 
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
 
+
+        
         height: 3rem;
         gap: 2rem;
 
         overflow-y: hidden;
+    }
+        
+    #corrida-1 {
+        background: url("./src/assets/168614.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center bottom 10px;
+    }
+
+    #corrida-2 {
+        background: url("./src/assets/madrid.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center bottom 10px;
+    }
+
+    #corrida-3 {
+        background: url("./src/assets/lisboa.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center bottom 10px;
     }
 
     .medalha {

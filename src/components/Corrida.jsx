@@ -1,11 +1,11 @@
 import { CorridaStyle } from "../css/CorridaStyle";
 
-const Corrida = () => {
+const Corrida = ({cidade, corrida}) => {
 
     return (
         <CorridaStyle>
-            <div className="corrida">
-                <h3 className="corrida-cidade">Paris, França</h3>
+            <div className="corrida" id={corrida}>
+                <h3 className="corrida-cidade">{cidade}</h3>
                 <div className="medalhas">
                     <div className="medalha">
                         <img  className="medalha-ouro" src="./src/assets/medalhas/ouro.png"/>

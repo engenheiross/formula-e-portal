@@ -3,6 +3,7 @@ import Tabela from "../components/Tabela.jsx";
 
 import {Link} from 'react-router-dom';
 import Corrida from "../components/Corrida.jsx";
+import { CorridaStyle } from "../css/CorridaStyle.jsx";
 
 const Home = () => {
 
@@ -31,9 +32,10 @@ const Home = () => {
 
             <div id="ultimas-corridas">
                 <h1>Últimas Corridas</h1>
-                <Corrida />
-                <Corrida />
-                <Corrida />
+
+                <Corrida cidade="Paris, França" corrida="corrida-1" />
+                <Corrida cidade="Madrid, Espanha" corrida="corrida-2" />
+                <Corrida cidade="Lisboa, Portugal" corrida="corrida-3" />
             </div>
 
             <div id="proxima-corrida">
