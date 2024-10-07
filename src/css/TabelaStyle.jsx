@@ -7,6 +7,10 @@ export const TabelaStyle = styled.section`
 
     }
 
+    h1 {
+        background: var(--secondary-color);
+    }
+
     #classificacao {
         width: 100%;
         border-collapse: collapse;

@@ -29,6 +29,10 @@ body {
     background-color: var(--primary-color);
 }
 
+h1 {
+        background: var(--secondary-color);
+}
+
 `
 
 export default GlobalStyle;
