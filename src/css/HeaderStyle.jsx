@@ -17,12 +17,23 @@ export const HeaderStyle = styled.section
 }
 
 #brand {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
     align-items: center;
     background: var(--third-color);
     height: 4rem;
     padding-inline: 8rem;
 
+    overflow-y: hidden;
+
     
+}
+
+.logo-img {
+    height: 5rem;
+
 }
 
 #links {
