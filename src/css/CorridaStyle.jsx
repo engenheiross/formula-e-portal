@@ -9,7 +9,7 @@ export const CorridaStyle = styled.section
         justify-content: center;
         align-items: center;
 
-        background: var(--gray);
+        background: var(--secondary-color);
         border-radius: 20%;
 
         font-weight: bold;
@@ -21,7 +21,7 @@ export const CorridaStyle = styled.section
         flex-direction: row;
 
 
-        background: var(--gray);
+        background: var(--secondary-color);
 
         border-radius: 20%;
 
