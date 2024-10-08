@@ -3,13 +3,20 @@ import styled from "styled-components";
 export const CorridaStyle = styled.section
 `
 
-    p {
+    .corrida-cidade {
+        width: 16rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        font-weight: bold;
+        height: 100%;
     }
 
     .medalhas {
         display: flex;
         flex-direction: row;
+
 
 
 
@@ -31,7 +38,6 @@ export const CorridaStyle = styled.section
 
         
         height: 3rem;
-        gap: 2rem;
 
         overflow-y: hidden;
     }
