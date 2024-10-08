@@ -27,6 +27,11 @@ export const HomeStyle = styled.section
     background-image: var(--gray);
 }
 
+.noticia-thumbnail {
+    width: 100%;
+    height: 120px;
+}
+
 #ultimas-corridas {
     grid-column: 2;
     grid-row: 1;

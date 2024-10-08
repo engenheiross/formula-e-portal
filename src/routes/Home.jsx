@@ -13,11 +13,11 @@ const Home = () => {
             <div id="noticias">
                 <h1>Últimas Notícias</h1>
                 <div className="noticia">
-                    <img alt="thumbnail" className="noticia-thumbnail"/>
-                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">Fórmula E confirma teste só para mulheres na pré-temporada de Valência</Link></h3>
+                    <img alt="thumbnail" src="./src/assets/thumbnail/noticia1.jpeg" className="noticia-thumbnail"/>
+                    <h3 className="noticia-titulo"><Link to="/noticias/noticia">ERT vira Kiro após concluir negociação para ser cliente da Porsche na Fórmula E</Link></h3>
                 </div>
                 <div className="noticia">
-                    <img alt="thumbnail" className="noticia-thumbnail"/>
+                    <img alt="thumbnail" src="./src/assets/thumbnail/noticia2.webp" className="noticia-thumbnail"/>
                     <h3 className="noticia-titulo"><Link to="/noticias/noticia2">Fórmula E promove teste exclusivo para mulheres em Valência em novembro</Link></h3>
                 </div>
                 <div className="noticia">
