@@ -9,6 +9,9 @@ export const CorridaStyle = styled.section
         justify-content: center;
         align-items: center;
 
+        background: var(--gray);
+        border-radius: 20%;
+
         font-weight: bold;
         height: 100%;
     }
@@ -18,6 +21,9 @@ export const CorridaStyle = styled.section
         flex-direction: row;
 
 
+        background: var(--gray);
+
+        border-radius: 20%;
 
 
     }
@@ -34,8 +40,7 @@ export const CorridaStyle = styled.section
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-
-
+        border-top: 1px solid white;
         
         height: 3rem;
 

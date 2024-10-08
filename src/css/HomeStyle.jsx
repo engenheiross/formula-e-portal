@@ -25,6 +25,8 @@ export const HomeStyle = styled.section
     padding: .5rem;
     gap: .3rem;
     background-image: var(--gray);
+
+    border-top: 1px solid white;
 }
 
 .noticia-thumbnail {

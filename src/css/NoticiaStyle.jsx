@@ -7,6 +7,7 @@ export const NoticiaStyle = styled.section
     flex-direction: column;
     background-color: var(--secondary-color);
 
+
     margin: 2rem;
 }
 
@@ -18,7 +19,18 @@ export const NoticiaStyle = styled.section
 }
 
 .article-content {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
+    padding: 2rem;
+
+    gap: .5rem;
+}
+
+.article-image {
+
+    max-height: 600px;
+
     padding: 2rem;
 }
 
