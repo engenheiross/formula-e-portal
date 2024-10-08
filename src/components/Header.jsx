@@ -8,7 +8,7 @@ const Header = () => {
         <HeaderStyle>
         <div id="header">
             <div id="brand">
-                <Link to="/"><img alt="logo"/></Link>
+                <Link to="/"><img className="logo-img" src="/src/assets/logo.png" alt="logo"/></Link>
                 <Link to="/" className="class-link"><h2>Fórmula E</h2></Link>
             </div>
             <div id="links">
